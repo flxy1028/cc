@@ -5,3 +5,8 @@ var c = [1, 2, 3, 4, 5]
 c.map(function (a) {
     return a + 2
 })
+// 再写一个函数
+
+c.reduce(function(a,b){
+    return a+b
+})
