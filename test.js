@@ -12,7 +12,7 @@ c.reduce(function(a,b){
 })
 
 // 再来写点什么 来验证 git checkout . 的功能有什么用   
-// 验证结果： git checkout .（回退所有 git checkout --<file> 回退指定文件）  回退所有工作区的修改　，即还没有git add (暂存区)前的修改
+// 验证结果： git checkout .（回退所有 git checkout --<file> 回退指定文件）  回退所有工作区的修改
 
 // 验证 git reset HEAD . 的功能效果
-// 验证结果： git reset HEAD . 将本地commit 的内容 回退到的暂存区 即 git add 之后的状态  
+// 验证结果： git reset HEAD . 将本地git add 的内容 回退到的工作区  
