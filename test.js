@@ -21,3 +21,5 @@ c.reduce(function(a,b){
 // 做 cherry-pick 有什么用
 
 // git cherry-pick <target-commit-id>命令是只将target-commit-id这一个提交提取到当前分支上
+
+console.log(111)
