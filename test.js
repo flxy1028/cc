@@ -7,8 +7,8 @@ c.map(function (a) {
 })
 // 再写一个函数
 
-c.reduce(function(a,b){
-    return a+b
+c.reduce(function (a, b) {
+    return a + b
 })
 
 // 再来写点什么 来验证 git checkout . 的功能有什么用   
@@ -24,3 +24,4 @@ c.reduce(function(a,b){
 
 console.log(111)
 // console.log = function() {}
+//asdfsdfadsf
